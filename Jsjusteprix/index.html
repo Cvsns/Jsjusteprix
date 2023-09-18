@@ -1,0 +1,24 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let guess = 100
+        let chiffre
+        while(chiffre !== guess) {
+            chiffre = prompt('chiffre') * 1
+            if (chiffre < guess) {
+                console.log('plus')
+           }else if (chiffre > guess) {
+                console.log('moins')
+            }
+        }
+        console.log ('bravo vous avez trouvé')
+    </script>
+
+</head>
+<body>
+</body>
+</html>
